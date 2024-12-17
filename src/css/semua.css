@@ -1,0 +1,21 @@
+.p {
+    background-image : url("../assets/bg-utama.jpg");
+    background-size: cover;
+
+
+
+   
+}
+
+.scroll-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+.scroll-hide{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
