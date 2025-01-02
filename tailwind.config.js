@@ -1,4 +1,4 @@
-import daisyui from 'daisyui';
+import daisyui from "daisyui";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -6,8 +6,10 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-    require(daisyui),
-  ],
-}
 
+  plugins: [daisyui],
+
+  daisyui: {
+    themes: ["light"], // Use 'light' theme explicitly (default is also 'light')
+  },
+};
