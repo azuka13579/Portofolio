@@ -10,5 +10,5 @@ app.get("/",(req,res) => {
 })
 
 app.listen(port, ()=> {
-    console.log('listeing at https://localhost:3000')
+    console.log('listeing at http://localhost:3000')
 })
