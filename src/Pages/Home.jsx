@@ -1,29 +1,13 @@
 import "../css/semua.css";
 import Card from "../Components/Card";
 import Profile from "../assets/Profile.jpg";
+import Navbar from "../Components/Navbar";
 
 function Home() {
   return (
     <>
       <div className="h-screen p">
-        <div className="bg-slate-100 text-slate-800 px-6 py-4 flex justify-between items-center fixed w-full z-10">
-          <h1 className="font-bold text-4xl">My Website Wohoo</h1>
-          <nav className="list-none flex gap-3">
-            <li className="hover:bg-slate-700 px-2 py-1 rounded hover:text-slate-100 transition duration-300">
-              <a href="#home">Home</a>
-            </li>
-            <li className="hover:bg-slate-700 px-2 py-1 rounded hover:text-slate-100 transition duration-300">
-              <a href="#about">About</a>
-            </li>
-            <li className="hover:bg-slate-700 px-2 py-1 rounded hover:text-slate-100 transition duration-300">
-              <a href="#project">Project</a>
-            </li>
-            <li className="hover:bg-slate-700 px-2 py-1 rounded hover:text-slate-100 transition duration-300">
-              <a href="#contact">Contact</a>
-            </li>
-          </nav>
-        </div>
-
+        <Navbar></Navbar>
         <div
           id="home"
           className="landing w-full h-full flex items-center justify-center"
@@ -94,26 +78,25 @@ function Home() {
         </div>
       </div>
 
-      <form action="" className="" id="contact">
-        <p className="text-black">Test</p>
+      <form
+        action=""
+        className="flex flex-col gap-4 justify-center items-center"
+        id="contact"
+      >
+        <h1 className="font-bold text-3xl">Contact Me</h1>
+        <div className="w-full flex flex-col items-center">
+          <p className="text-black text-start">Test</p>
+          <input
+            type="text"
+            placeholder="Type here"
+            className="input input-bordered input-success w-full max-w-lg"
+          />
+        </div>
 
-        <input
-          type="text"
-          placeholder="Type here"
-          className="input input-bordered input-success w-full max-w-sm"
-        />
-        <input
-          type="text"
-          placeholder="Type here"
-          className="input input-bordered input-success w-full max-w-sm"
-        />
-        <input
-          type="text"
-          placeholder="Type here"
-          className="input input-bordered input-success w-full max-w-sm"
-        />
-
-        <button className="btn bg-blue-400 hover:bg-blue-600" type="submit">
+        <button
+          className="btn bg-blue-400 hover:bg-blue-600 max-w-sm w-20"
+          type="submit"
+        >
           Submit
         </button>
       </form>

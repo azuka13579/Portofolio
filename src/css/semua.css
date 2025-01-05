@@ -1,21 +1,53 @@
 .p {
-    background-image : url("../assets/bg-utama.jpg");
-    background-size: cover;
-
-
-
-   
+  background-image: url("../assets/bg-utama.jpg");
+  background-size: cover;
 }
 
 .scroll-hide::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Edge */
+  display: none; /* Chrome, Safari, Edge */
 }
 
-.scroll-hide{
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;
+.scroll-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
+
+.navbar {
+  fit-content: 100%;
+}
+
+.main {
+  background-image: url("../assets/bg-kapal.png");
+  /* background-color: #000; */
+  background-size: 500px;
+  background-position: right 70px bottom 50%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-size: 350px;
+    background-position: center 90%;
+  }
+}
+
+.visimisi {
+  background-image: url("../assets/bg-kapal.png");
+  /* background-color: #000; */
+  background-size: 400px;
+  background-position: 85% 80%;
+  background-repeat: no-repeat;
+}
+
+/* .lihat-semua {
+  background-color: aqua;
+  transition: all 1s ease;
+}
+
+.lihat-semua:hover {
+  background-color: #00f;
+} */
