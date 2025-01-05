@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../assets/bg-kapal.png";
 
-export default function Divisi() {
+export default function Divisi({ link }) {
   return (
     <div>
       <div class="relative pb-1 bg-gradient-to-r from-cyan-400 to-sky-700">
@@ -48,7 +48,7 @@ export default function Divisi() {
               data-aos-anchor-placement="bottom-bottom"
             >
               <a
-                href="#"
+                href={link}
                 class="mt-4 mb-2 inline-block px-4 py-2 bg-sky-500 text-white font-semibold rounded-md hover:bg-sky-600 transition"
               >
                 Lihat Proker

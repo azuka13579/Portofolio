@@ -14,6 +14,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -43,11 +44,6 @@ html {
   background-repeat: no-repeat;
 }
 
-/* .lihat-semua {
-  background-color: aqua;
-  transition: all 1s ease;
+body {
+  z-index: -100;
 }
-
-.lihat-semua:hover {
-  background-color: #00f;
-} */

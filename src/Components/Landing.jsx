@@ -69,6 +69,7 @@ export default function Landing(props) {
           <h4 className="text-xl text-white font-normal mt-10">
             {props.subjudul}
           </h4>
+          <h4 className="text-xl text-white font-normal">{props.subjudul2}</h4>
 
           {props.button}
         </div>

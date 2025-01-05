@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-cyan-500 text-white text-center py-5 px-10 flex justify-between items-center">
+    <div className="bg-gradient-to-r from-cyan-400 to-sky-700 text-white text-center py-5 px-10 flex justify-between items-center">
       <div className="">
         <p className="">&copy; 2025 Samudra Wirakarsa</p>
       </div>

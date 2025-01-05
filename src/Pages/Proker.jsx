@@ -12,18 +12,18 @@ export default function Proker() {
         subjudul="lorem ipsum dolor sir amet, you are the best person i have ever met"
       ></Landing>
       <div className="">
-        <Divisi></Divisi>
-        <Divisikanan></Divisikanan>
-        <Divisi></Divisi>
-        <Divisikanan></Divisikanan>
-        <Divisi></Divisi>
-        <Divisikanan></Divisikanan>
-        <Divisi></Divisi>
-        <Divisikanan></Divisikanan>
-        <Divisi></Divisi>
-        <Divisikanan></Divisikanan>
-        <Divisi></Divisi>
-        <Divisikanan></Divisikanan>
+        <Divisi link="/divisi"></Divisi>
+        <Divisikanan link="/divisi"></Divisikanan>
+        <Divisi link="/divisi"></Divisi>
+        <Divisikanan link="/divisi"></Divisikanan>
+        <Divisi link="/divisi"></Divisi>
+        <Divisikanan link="/divisi"></Divisikanan>
+        <Divisi link="/divisi"></Divisi>
+        <Divisikanan link="/divisi"></Divisikanan>
+        <Divisi link="/divisi"></Divisi>
+        <Divisikanan link="/divisi"></Divisikanan>
+        <Divisi link="/divisi"></Divisi>
+        <Divisikanan link="/divisi"></Divisikanan>
       </div>
       <Footer></Footer>
     </div>
