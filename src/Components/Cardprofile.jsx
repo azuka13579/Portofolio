@@ -1,6 +1,5 @@
 import React from "react";
 import gambar from "../assets/bg-kapal.png";
-// import ReactCardFlip from "react-card-flip";
 
 export default function Cardprofile({ delay, transition }) {
   return (
