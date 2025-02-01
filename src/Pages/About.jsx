@@ -6,6 +6,7 @@ import Card2 from "../Components/Card2";
 import Landing from "../Components/Landing";
 import Footer from "../Components/Footer";
 import Buttonlanding from "../Components/Buttonlanding";
+import ModernBlueCard from "../Components/ModernBlueCard";
 
 export default function About() {
   return (
@@ -81,6 +82,8 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <ModernBlueCard></ModernBlueCard>
 
       {/* footer */}
       <Footer></Footer>
